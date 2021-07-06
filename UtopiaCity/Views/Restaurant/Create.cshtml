@@ -1,0 +1,34 @@
+﻿@model UtopiaCity.Models.PublicCatering.Restaurant
+
+@{
+    ViewBag.Title = "Добавление нового ресторана";
+    Layout = "_Layout";
+}
+
+<h2>Заполните форму</h2>
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" asp-controller="Restaurant" method="post">
+            <div class="form-row">
+                <label for="">
+                    Name
+                    <input asp-for="Name" type="text">
+                </label>
+            </div>
+            <div class="form-row">
+                <label for="">
+                    Address
+                    <input asp-for="Address" type="text">
+                </label>
+            </div>
+            <div class="form-row">
+                <label for="">
+                    Seats
+                    <input asp-for="Seats" type="text">
+                </label>
+            </div>
+
+            <button type="submit">Create</button>
+        </form>
+    </div>
+</div>

@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using UtopiaCity.Models;
+using UtopiaCity.Models.PublicCatering;
 
 namespace UtopiaCity.Controllers
 {

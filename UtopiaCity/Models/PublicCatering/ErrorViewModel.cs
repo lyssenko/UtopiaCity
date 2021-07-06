@@ -1,6 +1,4 @@
-using System;
-
-namespace UtopiaCity.Models
+namespace UtopiaCity.Models.PublicCatering
 {
     public class ErrorViewModel
     {

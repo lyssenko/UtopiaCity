@@ -1,7 +1,7 @@
 ﻿using System;
 using UtopiaCity.Enums;
 
-namespace UtopiaCity.Models
+namespace UtopiaCity.Models.PublicCatering
 {
     public class Restaurant
     {
